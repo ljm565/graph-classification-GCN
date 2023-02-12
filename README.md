@@ -6,7 +6,7 @@ COLLAB 그래프는 연구자들이 node로 나타나며, 서로 협업을 했�
 즉 하나의 그래프는 여러 연구자들로 이루어진 협업 상태를 나타내며, 하나의 그래프를 이루고 있는 연구자들이 속한 필드가 그 그래프의 label로 지정되어있습니다.
 Label은 High Energy Physics, Condensed Matter Physics, Astro Physics의 3가지 종류가 있습니다.
 뿐만 아니라 학습된 그래프 feature의 분포를 t-SNE를 통해 가시화합니다.
-본 코드의 자세한 설명은 [TUDataset과 GCN을 이용한 그래프 분류](https://ljm565.github.io/contents/gnn3.html)을 참고하시기 바랍니다.
+본 코드의 자세한 설명은 [GCN을 이용한 COLLAB TUDataset 그래프 분류](https://ljm565.github.io/contents/gnn3.html)을 참고하시기 바랍니다.
 <br><br><br>
 
 ## 모델 종류
