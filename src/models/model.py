@@ -1,6 +1,5 @@
-import torch
 import torch.nn as nn
-from torch_geometric.nn import GCNConv, Sequential, global_mean_pool
+from torch_geometric.nn import GCNConv, global_mean_pool
 
 
 
