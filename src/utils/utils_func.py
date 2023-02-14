@@ -1,6 +1,4 @@
 import torch
-import random
-from scipy.linalg import fractional_matrix_power
 
 import torch_geometric.transforms as T
 from torch_geometric.utils import degree
