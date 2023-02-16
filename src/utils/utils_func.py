@@ -1,5 +1,4 @@
 import torch
-
 import torch_geometric.transforms as T
 from torch_geometric.utils import degree
 from torch_geometric.datasets import TUDataset
