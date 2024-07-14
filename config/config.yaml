@@ -1,0 +1,33 @@
+# base
+seed: 0
+deterministic: True
+
+# environment config
+device: cpu     # examples: [0], [0,1], [1,2,3], cpu, mps...  
+
+# project config
+project: outputs/GCN
+name: TUDataset
+
+# model config
+hidden_dim: 256
+dropout: 0.1
+
+# data config
+workers: 0                             # Don't worry to set worker. The number of workers will be set automatically according to the batch size.
+tu_dataset_train: True                 # if True, TU dataset will be loaded automatically.
+tu_dataset:
+    path: data/
+CUSTOM:
+    train_data_path: null
+    validation_data_path: null
+    test_data_path: null
+
+# train config
+batch_size: 128
+epochs: 100
+lr: 1e-2
+patience: 10                           # Early stopping epochs.
+
+# logging config
+common: ['train_loss', 'train_acc', 'validation_loss', 'validation_acc']
