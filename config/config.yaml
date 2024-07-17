@@ -7,7 +7,7 @@ device: cpu     # examples: [0], [0,1], [1,2,3], cpu, mps...
 
 # project config
 project: outputs/GCN
-name: TUDataset
+name: tu
 
 # model config
 hidden_dim: 256

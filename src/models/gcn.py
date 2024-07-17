@@ -4,12 +4,12 @@ from torch_geometric.nn import GCNConv, global_mean_pool
 
 
 class GCN(nn.Module):
-    def __init__(self, config, num_node_features, cls_num):
+    def __init__(self, config):
         super(GCN, self).__init__()
         self.hidden_dim = config.hidden_dim
         self.dropout = config.dropout
-        self.num_node_features = num_node_features
-        self.cls_num = cls_num
+        self.num_node_features = config.num_node_features
+        self.cls_num = config.cls_num
 
         self.gcn1 = GCNConv(self.num_node_features, self.hidden_dim)
         self.gcn2 = GCNConv(self.hidden_dim, self.hidden_dim)
