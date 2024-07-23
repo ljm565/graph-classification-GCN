@@ -15,8 +15,8 @@ dropout: 0.1
 
 # data config
 workers: 0                             # Don't worry to set worker. The number of workers will be set automatically according to the batch size.
-tu_dataset_train: True                 # if True, TU dataset will be loaded automatically.
-tu_dataset:
+collab_dataset_train: True             # if True, collab dataset will be loaded automatically.
+collab_dataset:
     path: data/
 CUSTOM:
     train_data_path: null

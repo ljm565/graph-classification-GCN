@@ -11,8 +11,8 @@ from utils import LOGGER, colorstr
 
 
 def load_data(config):
-    if config.tu_dataset_train:
-        dataset = TUDataset(root=config.tu_dataset.path, name='COLLAB')
+    if config.collab_dataset_train:
+        dataset = TUDataset(root=config.collab_dataset.path, name='COLLAB')
         dataset.transform = make_onehot_node_feature(dataset)
         dataset = dataset.shuffle()
     else:

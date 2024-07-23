@@ -18,7 +18,7 @@ def get_model(config, device):
 
 
 def build_dataset(config, modes):
-    if config.tu_dataset_train:
+    if config.collab_dataset_train:
         dataset = load_data(config)
         config.num_node_features = dataset.num_node_features
         config.cls_num = dataset.num_classes
