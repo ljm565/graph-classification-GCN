@@ -4,7 +4,7 @@ Please refer to the following instructions to utilize custom datasets.
 
 
 ### 1. COLLAB
-If you want to train on the Cora dataset, simply set the `collab_dataset_train` value in the `config/config.yaml` file to `True` as follows.
+If you want to train on the COLLAB dataset, simply set the `collab_dataset_train` value in the `config/config.yaml` file to `True` as follows.
 ```yaml
 collab_dataset_train: True             # if True, collab dataset will be loaded automatically.
 collab_dataset:
