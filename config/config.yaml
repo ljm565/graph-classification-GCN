@@ -7,7 +7,7 @@ device: cpu     # examples: [0], [0,1], [1,2,3], cpu, mps...
 
 # project config
 project: outputs/GCN
-name: tu
+name: collab
 
 # model config
 hidden_dim: 256
@@ -26,8 +26,7 @@ CUSTOM:
 # train config
 batch_size: 128
 epochs: 100
-lr: 1e-2
-patience: 10                           # Early stopping epochs.
+lr: 1e-3
 
 # logging config
-common: ['train_loss', 'train_acc', 'validation_loss', 'validation_acc']
+common: ['train_loss', 'train_acc', 'validation_loss', 'validation_acc', 'lr']
