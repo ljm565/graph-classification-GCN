@@ -63,17 +63,17 @@ Label은 High Energy Physics, Condensed Matter Physics, Astro Physics의 3가지
 ## 결과
 * ### 그래프 분류 학습 결과
     * Loss History<br>
-    <img src="docs/figs/loss.png" width="80%"><br><br>
+    <img src="figs/loss.png" width="80%"><br><br>
 
     * Accuracy History<br>
-    <img src="docs/figs/acc.png" width="80%"><br><br>
+    <img src="figs/acc.png" width="80%"><br><br>
     
 
     * Test set accuracy: 0.7907 (14 epoch)<br>
     (Validation set의 가장 높은 accuracy를 달성했을 때 모델의 test set 결과)<br><br>
 
     * 학습된 Test set Feature Distribution<br>
-    <img src="docs/figs/graph_classification.png" width="80%"><br><br>
+    <img src="figs/graph_classification.png" width="80%"><br><br>
 
 
 ## 기타
